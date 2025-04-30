@@ -1,0 +1,259 @@
+CRITICAL - 2025-04-21 08:55:00 --> Error: Call to a member function delete() on null
+[Method: DELETE, Route: provinces/delete/8]
+in APPPATH\Controllers\ProvinceController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProvinceController->delete('8')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:29:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php1920.tmp" to "uploads/images/". Reason: 
+[Method: POST, Route: villes/store]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php1920.tmp', 'uploads/images/', '')
+ 2 APPPATH\Controllers\VilleController.php(61): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/images/', 'uploads/images/1745234988_11fcf143e912c6c130e0.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:33:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "villes/index.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('villes/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('villes/index', [], true)
+ 3 APPPATH\Controllers\VilleController.php(25): view('villes/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:34:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/index.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/index', [], true)
+ 3 APPPATH\Controllers\VilleController.php(25): view('Villes/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:34:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/index.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/index', [], true)
+ 3 APPPATH\Controllers\VilleController.php(25): view('Villes/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:34:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/index.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/index', [], true)
+ 3 APPPATH\Controllers\VilleController.php(25): view('Villes/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:34:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/index.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/index', [], true)
+ 3 APPPATH\Controllers\VilleController.php(25): view('Villes/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:34:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/index.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/index', [], true)
+ 3 APPPATH\Controllers\VilleController.php(25): view('Villes/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:34:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/index.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/index', [], true)
+ 3 APPPATH\Controllers\VilleController.php(25): view('Villes/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:34:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/index.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/index', [], true)
+ 3 APPPATH\Controllers\VilleController.php(25): view('Villes/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:34:34 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php769F.tmp" to "uploads/images/". Reason: 
+[Method: POST, Route: villes/store]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php769F.tmp', 'uploads/images/', '')
+ 2 APPPATH\Controllers\VilleController.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/images/', 'uploads/images/1745235274_9fbb4348607852d61977.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 11:37:20 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php1A.tmp" to "uploads/images/". Reason: 
+[Method: POST, Route: villes/store]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php1A.tmp', 'uploads/images/', '')
+ 2 APPPATH\Controllers\VilleController.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/images/', 'uploads/images/1745235440_a4ab496abad86fab063e.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 12:51:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/ville.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/ville.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/ville', [], true)
+ 3 APPPATH\Controllers\VilleController.php(24): view('Villes/ville', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 12:51:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/ville.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/ville.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/ville', [], true)
+ 3 APPPATH\Controllers\VilleController.php(24): view('Villes/ville', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 12:51:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/ville.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/ville.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/ville', [], true)
+ 3 APPPATH\Controllers\VilleController.php(24): view('Villes/ville', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 12:51:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/ville.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/ville.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/ville', [], true)
+ 3 APPPATH\Controllers\VilleController.php(24): view('Villes/ville', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 13:10:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Villes/ville.php"
+[Method: GET, Route: villes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Villes/ville.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Villes/ville', [], true)
+ 3 APPPATH\Controllers\VilleController.php(24): view('Villes/ville', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\VilleController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VilleController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 13:39:06 --> Error: Call to undefined function App\Models\OrderBy()
+[Method: GET, Route: provinces]
+in APPPATH\Models\ProvinceModel.php on line 27.
+ 1 APPPATH\Controllers\ProvinceController.php(20): App\Models\ProvinceModel->getAllProvinces()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProvinceController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 13:39:24 --> Error: Call to undefined function App\Models\OrderBy()
+[Method: GET, Route: provinces]
+in APPPATH\Models\ProvinceModel.php on line 27.
+ 1 APPPATH\Controllers\ProvinceController.php(20): App\Models\ProvinceModel->getAllProvinces()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProvinceController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 13:39:24 --> Error: Call to undefined function App\Models\OrderBy()
+[Method: GET, Route: provinces]
+in APPPATH\Models\ProvinceModel.php on line 27.
+ 1 APPPATH\Controllers\ProvinceController.php(20): App\Models\ProvinceModel->getAllProvinces()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProvinceController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-04-21 13:39:25 --> Error: Call to undefined function App\Models\OrderBy()
+[Method: GET, Route: provinces]
+in APPPATH\Models\ProvinceModel.php on line 27.
+ 1 APPPATH\Controllers\ProvinceController.php(20): App\Models\ProvinceModel->getAllProvinces()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProvinceController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')

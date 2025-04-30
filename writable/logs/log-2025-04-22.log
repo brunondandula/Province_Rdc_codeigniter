@@ -1,0 +1,358 @@
+DEBUG - 2025-04-22 09:01:13 --> Recherche pour: Kinshasa
+DEBUG - 2025-04-22 09:01:13 --> Info de la ville: Array
+(
+    [id] => 6
+    [nom_ville] => kinshasa
+    [province_id] => 23
+    [langue] => 
+    [superficie] => 
+    [population] => 1000000
+    [image] => uploads/images/1745241774_404e8f91163b0a0d72e6.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:01:13 --> Info de la province: 
+DEBUG - 2025-04-22 09:05:02 --> Recherche pour: buta
+DEBUG - 2025-04-22 09:05:02 --> Info de la ville: Array
+(
+    [id] => 12
+    [nom_ville] => Buta
+    [province_id] => 32
+    [langue] => Lingala
+    [superficie] => 14833
+    [population] => 98767
+    [image] => uploads/images/1745244255_2db051d6700650bf7840.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:05:02 --> Info de la province: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:06:52 --> Recherche pour: Lubumbashi
+DEBUG - 2025-04-22 09:06:52 --> Info de la ville: Array
+(
+    [id] => 30
+    [nom_ville] => Lubumbashi
+    [province_id] => 51
+    [langue] => Swahili
+    [superficie] => 132425
+    [population] => 2147483647
+    [image] => uploads/images/1745245146_8df9ae8f1155475a2aed.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:06:52 --> Info de la province: Array
+(
+    [id] => 51
+    [nom_province] => Haut-Katanga
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:11:29 --> Recherche pour: buta
+DEBUG - 2025-04-22 09:11:29 --> Info de la ville: Array
+(
+    [id] => 12
+    [nom_ville] => Buta
+    [province_id] => 32
+    [langue] => Lingala
+    [superficie] => 14833
+    [population] => 98767
+    [image] => uploads/images/1745244255_2db051d6700650bf7840.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:11:29 --> Info de la province: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:12:18 --> Recherche pour: buta
+DEBUG - 2025-04-22 09:12:18 --> Info de la ville: Array
+(
+    [id] => 12
+    [nom_ville] => Buta
+    [province_id] => 32
+    [langue] => Lingala
+    [superficie] => 14833
+    [population] => 98767
+    [image] => uploads/images/1745244255_2db051d6700650bf7840.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:12:18 --> Info de la province: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:13:10 --> Recherche pour: Bas-Uele
+DEBUG - 2025-04-22 09:13:10 --> Info de la ville: 
+DEBUG - 2025-04-22 09:13:10 --> Info de la province recherchée: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:41:40 --> Recherche pour: buta
+DEBUG - 2025-04-22 09:41:40 --> Info de la ville: Array
+(
+    [id] => 12
+    [nom_ville] => Buta
+    [province_id] => 32
+    [langue] => Lingala
+    [superficie] => 14833
+    [population] => 98767
+    [image] => uploads/images/1745244255_2db051d6700650bf7840.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 09:41:40 --> Info de la province: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:13:59 --> Recherche pour: mbanza-ngungu
+DEBUG - 2025-04-22 11:13:59 --> Info de la ville: Array
+(
+    [id] => 42
+    [nom_ville] => Mbanza-Ngungu
+    [province_id] => 35
+    [langue] => Kikongo
+    [superficie] => 101336
+    [population] => 101336
+    [image] => uploads/images/1745317742_2ea80386e370f152c376.jpeg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:13:59 --> Info de la province: Array
+(
+    [id] => 35
+    [nom_province] => Kongo Central
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:36:35 --> Recherche pour: kinshasa
+DEBUG - 2025-04-22 11:36:35 --> Info de la ville: Array
+(
+    [id] => 6
+    [nom_ville] => kinshasa
+    [province_id] => 23
+    [langue] => 
+    [superficie] => 
+    [population] => 1000000
+    [image] => uploads/images/1745241774_404e8f91163b0a0d72e6.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:36:35 --> Info de la province: 
+DEBUG - 2025-04-22 11:36:42 --> Recherche pour: buta
+DEBUG - 2025-04-22 11:36:42 --> Info de la ville: Array
+(
+    [id] => 12
+    [nom_ville] => Buta
+    [province_id] => 32
+    [langue] => Lingala
+    [superficie] => 14833
+    [population] => 98767
+    [image] => uploads/images/1745244255_2db051d6700650bf7840.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:36:42 --> Info de la province: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:43:38 --> Recherche pour: k
+DEBUG - 2025-04-22 11:43:38 --> Info de la ville: 
+DEBUG - 2025-04-22 11:43:38 --> Info de la province recherchée: 
+DEBUG - 2025-04-22 11:43:40 --> Recherche pour: b
+DEBUG - 2025-04-22 11:43:40 --> Info de la ville: 
+DEBUG - 2025-04-22 11:43:40 --> Info de la province recherchée: 
+DEBUG - 2025-04-22 11:43:41 --> Recherche pour: bu
+DEBUG - 2025-04-22 11:43:41 --> Info de la ville: 
+DEBUG - 2025-04-22 11:43:41 --> Info de la province recherchée: 
+DEBUG - 2025-04-22 11:43:42 --> Recherche pour: but
+DEBUG - 2025-04-22 11:43:42 --> Info de la ville: 
+DEBUG - 2025-04-22 11:43:42 --> Info de la province recherchée: 
+DEBUG - 2025-04-22 11:43:43 --> Recherche pour: buta
+DEBUG - 2025-04-22 11:43:43 --> Info de la ville: Array
+(
+    [id] => 12
+    [nom_ville] => Buta
+    [province_id] => 32
+    [langue] => Lingala
+    [superficie] => 14833
+    [population] => 98767
+    [image] => uploads/images/1745244255_2db051d6700650bf7840.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:43:43 --> Info de la province: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:43:49 --> Recherche pour: buta
+DEBUG - 2025-04-22 11:43:49 --> Info de la ville: Array
+(
+    [id] => 12
+    [nom_ville] => Buta
+    [province_id] => 32
+    [langue] => Lingala
+    [superficie] => 14833
+    [population] => 98767
+    [image] => uploads/images/1745244255_2db051d6700650bf7840.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:43:49 --> Info de la province: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:43:52 --> Recherche pour: buta
+DEBUG - 2025-04-22 11:43:52 --> Info de la ville: Array
+(
+    [id] => 12
+    [nom_ville] => Buta
+    [province_id] => 32
+    [langue] => Lingala
+    [superficie] => 14833
+    [population] => 98767
+    [image] => uploads/images/1745244255_2db051d6700650bf7840.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 11:43:52 --> Info de la province: Array
+(
+    [id] => 32
+    [nom_province] => Bas-Uele
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 12:08:24 --> Recherche pour: bunia
+DEBUG - 2025-04-22 12:08:24 --> Info de la ville: Array
+(
+    [id] => 14
+    [nom_ville] => Bunia
+    [province_id] => 34
+    [langue] => Swahili
+    [superficie] => 65658
+    [population] => 1234787
+    [image] => uploads/images/1745244329_062a9573b5f2c5f2c277.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 12:08:24 --> Info de la province: Array
+(
+    [id] => 34
+    [nom_province] => Ituri
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 12:47:31 --> Recherche pour: lubumbashi
+DEBUG - 2025-04-22 12:47:31 --> Info de la ville: Array
+(
+    [id] => 30
+    [nom_ville] => Lubumbashi
+    [province_id] => 51
+    [langue] => Swahili
+    [superficie] => 132425
+    [population] => 2147483647
+    [image] => uploads/images/1745245146_8df9ae8f1155475a2aed.jpg
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 12:47:31 --> Info de la province: Array
+(
+    [id] => 51
+    [nom_province] => Haut-Katanga
+    [created_at] => 
+    [updated_at] => 
+)
+
+DEBUG - 2025-04-22 13:05:33 --> Recherche pour: b
+DEBUG - 2025-04-22 13:05:33 --> Recherche pour: bu
+DEBUG - 2025-04-22 13:05:34 --> Recherche pour: but
+DEBUG - 2025-04-22 13:05:35 --> Recherche pour: buta
+DEBUG - 2025-04-22 13:06:29 --> Recherche pour: Lubumbashi
+DEBUG - 2025-04-22 13:06:52 --> Recherche pour: Ituri
+DEBUG - 2025-04-22 13:07:37 --> Recherche pour: kwilu
+DEBUG - 2025-04-22 13:09:21 --> Recherche pour: kwilu
+DEBUG - 2025-04-22 13:09:58 --> Recherche pour: Kongo Central
+DEBUG - 2025-04-22 13:11:17 --> Recherche pour: k
+DEBUG - 2025-04-22 13:11:18 --> Recherche pour: kw
+DEBUG - 2025-04-22 13:11:18 --> Recherche pour: kwi
+DEBUG - 2025-04-22 13:11:20 --> Recherche pour: kw
+DEBUG - 2025-04-22 13:11:20 --> Recherche pour: k
+DEBUG - 2025-04-22 13:11:29 --> Recherche pour: k
+DEBUG - 2025-04-22 13:11:30 --> Recherche pour: kw
+DEBUG - 2025-04-22 13:11:30 --> Recherche pour: kwi
+DEBUG - 2025-04-22 13:11:31 --> Recherche pour: kwil
+DEBUG - 2025-04-22 13:11:31 --> Recherche pour: kwilu
+DEBUG - 2025-04-22 13:11:31 --> Recherche pour: kwilui
+DEBUG - 2025-04-22 13:11:33 --> Recherche pour: kwilu
+DEBUG - 2025-04-22 13:11:48 --> Recherche pour: kwil
+DEBUG - 2025-04-22 13:11:48 --> Recherche pour: kwi
+DEBUG - 2025-04-22 13:11:48 --> Recherche pour: kw
+DEBUG - 2025-04-22 13:11:49 --> Recherche pour: k
+DEBUG - 2025-04-22 13:11:50 --> Recherche pour: k
+DEBUG - 2025-04-22 13:11:50 --> Recherche pour: ko
+DEBUG - 2025-04-22 13:11:51 --> Recherche pour: kon
+DEBUG - 2025-04-22 13:11:51 --> Recherche pour: kong
+DEBUG - 2025-04-22 13:11:51 --> Recherche pour: kongo
+DEBUG - 2025-04-22 13:11:53 --> Recherche pour: kongo
+DEBUG - 2025-04-22 13:11:53 --> Recherche pour: kongo c
+DEBUG - 2025-04-22 13:11:53 --> Recherche pour: kongo cn
+DEBUG - 2025-04-22 13:11:54 --> Recherche pour: kongo cnt
+DEBUG - 2025-04-22 13:11:54 --> Recherche pour: kongo cn
+DEBUG - 2025-04-22 13:11:54 --> Recherche pour: kongo c
+DEBUG - 2025-04-22 13:11:55 --> Recherche pour: kongo ce
+DEBUG - 2025-04-22 13:11:55 --> Recherche pour: kongo cen
+DEBUG - 2025-04-22 13:11:55 --> Recherche pour: kongo cent
+DEBUG - 2025-04-22 13:11:55 --> Recherche pour: kongo centr
+DEBUG - 2025-04-22 13:11:55 --> Recherche pour: kongo centra
+DEBUG - 2025-04-22 13:11:56 --> Recherche pour: kongo central

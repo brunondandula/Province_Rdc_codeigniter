@@ -1,0 +1,14 @@
+INFO - 2025-04-30 10:06:23 --> Détails de la ville : Array
+(
+    [id] => 47
+    [nom_ville] => masimanimba
+    [province_id] => 38
+    [langue] => Kikongo
+    [superficie] => 23426
+    [population] => 124211
+    [image] => uploads/images/1746007583_25c46ab066bdde8508d7.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Kwilu
+)
+

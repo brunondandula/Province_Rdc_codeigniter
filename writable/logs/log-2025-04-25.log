@@ -1,0 +1,112 @@
+INFO - 2025-04-25 07:54:51 --> Détails de la ville : Array
+(
+    [id] => 10
+    [nom_ville] => Gbadolite
+    [province_id] => 30
+    [langue] => Lingala
+    [superficie] => 56644
+    [population] => 1097890
+    [image] => uploads/images/1745244174_0d069d391192e4378597.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Nord-Ubangui
+)
+
+INFO - 2025-04-25 07:54:53 --> Détails de la ville : Array
+(
+    [id] => 10
+    [nom_ville] => Gbadolite
+    [province_id] => 30
+    [langue] => Lingala
+    [superficie] => 56644
+    [population] => 1097890
+    [image] => uploads/images/1745244174_0d069d391192e4378597.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Nord-Ubangui
+)
+
+INFO - 2025-04-25 08:13:21 --> Détails de la ville : Array
+(
+    [id] => 17
+    [nom_ville] => Bandundu
+    [province_id] => 38
+    [langue] => Kikongo
+    [superficie] => 78219
+    [population] => 349700
+    [image] => uploads/images/1745244452_6d7c9a56ce6e25548f2e.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Kwilu
+)
+
+INFO - 2025-04-25 08:25:16 --> Détails de la ville : Array
+(
+    [id] => 16
+    [nom_ville] => Inongo
+    [province_id] => 37
+    [langue] => Lingala
+    [superficie] => 127465
+    [population] => 7896555
+    [image] => uploads/images/1745244408_0e1e7080459ad78b73fc.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Mai-Ndombe
+)
+
+INFO - 2025-04-25 08:25:18 --> Détails de la ville : Array
+(
+    [id] => 16
+    [nom_ville] => Inongo
+    [province_id] => 37
+    [langue] => Lingala
+    [superficie] => 127465
+    [population] => 7896555
+    [image] => uploads/images/1745244408_0e1e7080459ad78b73fc.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Mai-Ndombe
+)
+
+INFO - 2025-04-25 08:38:32 --> Détails de la ville : Array
+(
+    [id] => 44
+    [nom_ville] => kinshasa
+    [province_id] => 36
+    [langue] => lingala
+    [superficie] => 1111111111
+    [population] => 111111111
+    [image] => 1745502654_e00d4bc42a0f862094f4.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Kinshasa
+)
+
+INFO - 2025-04-25 08:42:53 --> Détails de la ville : Array
+(
+    [id] => 45
+    [nom_ville] => Lubumbashi
+    [province_id] => 51
+    [langue] => Swahili
+    [superficie] => 2312222
+    [population] => 124543
+    [image] => 1745570573_011015a90a041d2329fa.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Haut-Katanga
+)
+
+INFO - 2025-04-25 08:44:04 --> Détails de la ville : Array
+(
+    [id] => 46
+    [nom_ville] => kinshasa
+    [province_id] => 36
+    [langue] => lingala
+    [superficie] => 1233431
+    [population] => 11000000
+    [image] => 1745570644_2ae92a655da77fc12bc8.jpg
+    [created_at] => 
+    [updated_at] => 
+    [nom_province] => Kinshasa
+)
+
