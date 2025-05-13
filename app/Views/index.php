@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <!-- Icon Font Stylesheet -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -12,7 +12,7 @@
 <!-- Libraries Stylesheet -->
 <link href="lib/animate/animate.min.css" rel="stylesheet">
 <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
 <!-- Customized Bootstrap Stylesheet -->
@@ -32,80 +32,86 @@
     <!-- Spinner End -->
 
     <!-- Navbar & Hero Start -->
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0" style="width: 100%; height: 55px;">
             <a href="/" class="navbar-brand p-0">
-                <img src="img/Trivago-Logo.png" alt="Mon Logo" style="width: 120px; height: 69px; margin-left: 110px; margin-top: -24px;">
+                <img src="img/Trivago-Logo.png" alt="Mon Logo" style="width: 120px; height: 62px; margin-left: 100px; margin-top: 1px;font-size: 1px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-right: 105px;">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="favorites.html" class="nav-item nav-link">
-                        <i class="bi bi-heart"></i> Favoris
+                    <a href="favorites.html" class="nav-item nav-link" style="color: #000;font-size:13px">
+                        <i class="bi bi-heart" style="font-size: 1.2rem;padding:12px"></i> Favoris
                     </a>
-                    <a href="#" class="nav-item nav-link language-link" style="color: #000;">
-                        <i class="fa fa-globe"></i> Language
+                    <a href="#" class="nav-item nav-link language-link" style="color: #000;font-size:13px">
+                        <i class="bi bi-globe" style="font-size: 1.2rem;padding:12px"></i> FR $
                     </a>
-                    <a href="#" class="nav-item nav-link" style="color: #000;" id="loginLink">
-                         <i class="fa fa-user-circle"></i> Se Connecter
+                    <a href="#" class="nav-item nav-link" style="font-size:13px" id="loginLink" >
+                         <i class="bi bi-person-circle" style="font-size: 1.2rem; padding:12px" ></i> Se Connecter
                     </a>
                 </div>
                 <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="fa fa-bars"></span> Menu
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="recent-activities.html">Activité récente</a></li>
-                            <li><a class="dropdown-item" href="contact-support.html">Aide et assistance</a></li>
-                        </ul>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style=" font-size: 13px; margin-top:8px;">
+                        <span class="bi bi-list" style="font-size: 22px; margin-right: 5px;"></span> Menu
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Activité récente</a></li>
+                        <li><a class="dropdown-item" href="#">Aide et assistance</a></li>
+                    </ul>
                 </div>
             </div>
+            <hr>
         </nav>
-    </div>
-    <hr>
+
     <!-- Navbar & Hero End -->
 
-    <div class="container-fluid service py-5" style="background-color:rgb(249, 249, 243); height: 310px; margin-top: -20px;">
-        <div class="container py-5">
-            <div class="provinces-title mb-5">
-                <h5>Les provinces de la rd congo</h5>
-                <h6>Nous vous aidons à obtenir la liste des villes d'une province.</h6>
-            </div>
+    <div class="container-fluid service py-5" style="background: linear-gradient(to top left, rgb(243, 243, 234),rgb(255, 255, 255));; height: 380px; margin-top: -29px;width: 100%; ">
+        <div class="container " style="width: 100%;margin-top: 78px;">
+                <div class="provinces-title mb-5" style="font-family: 'Arial', sans-serif; font-size: 100px; color: #000; margin-left:79px">
+                <h5 style="font-weight: bold; font-family: 'Arial', sans-serif;margin-left:-30px; font-size:25px">Les provinces de la république démocratique du congo</h5>
+                 <h6 style="color: #000; font-family: 'Arial', sans-serif; font-size:15px; margin-left:-30px">Nous vous aidons à obtenir la liste des villes d'une province.</h6>
+        </div>
           
-            <div class="row mb-4 justify-content-center" style="position: relative;">
-                <div class="col-md-9">
-                    <div class="d-flex" style="border: 5px solid orange; border-radius: 15px; overflow: hidden; align-items: center; width: 120%; height: 70px; margin-left: -65px;">
-                        <div class="input-group">
-                             <span class="input-group-text" id="search-icon" style="border: none; background: transparent;">
-                                <i class="fas fa-search"></i>
-                            </span>
-                            <input type="text" id="search-input" class="form-control" placeholder="Rechercher une province...">
-                        </div>
-                        <button id="search-button" class="btn" style="border-radius:10px; margin:5px;width:20%;height:50px;">
-                            <strong>Rechercher</strong>
-                        </button>
-                    </div>
-                    <div id="custom-popup" class="custom-popup">
-                        <div class="popup-title">Les villes de la province de <span id="province-name"></span></div>
-                    </div>
-                </div>
-            </div>
+            <div class="row mb-4 justify-content-center" style="position: relative; width: 90%; margin-left:50px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);">
+        <div class="col-md-9 text-center" style="width: 100%;">
+     <div class="d-flex" style="border-radius: 15px; overflow: hidden; align-items: center; width: 100%; height: 57px;">
+        <div class="input-group flex-grow-1" style="width:0% height:50%; ">
+            <span class="input-group-text" id="search-icon" style="border: none; background: transparent;">
+                <i class="bi bi-search" style="color: #000;font-size: 1.2rem;"></i>
+            </span>
+            <input type="text" id="search-input" class="form-control" placeholder="Rechercher une province..." oninput="toggleClearButton()">
+            <button id="clear-button" class="btn btn-outline-secondary" style=" height: auto; display: none; width:5%;border:none; margin-top:-6px; margin-left:-5px; background: transparent;" onclick="clearInput()">
+                <i class="fas fa-times" style="color: #000;"></i>
+            </button>
+        </div>
+        <div  class="barre" ></div>
+        <input type="text" id="city-input" class="form-control" placeholder="Ville" style=" height: 50px;border:none; background-color:transparent; "  readonly>
+        <button id="search-button" class="search-button">
+            <strong >Rechercher</strong>
+        </button>
+    </div>
+</div>
+        <div id="custom-popup" class="custom-popup">
+            <div class="popup-title"></div>
+        </div>
+    </div>
+</div>
 
            
-            <div class="container-fluid mt-100">
-                <div class="row mb-4 justify-content-center">
-                    <div class="col-md-9 text-center">
+            <div class="container-fluid mt-30" >
+                <div class="row mb-4 justify-content-center" style="width: 83%;  height: 100px; margin-left: 72px; margin-top: 0px;">
+                    <div class="col-md-4 text-center" style="width: 100%; height: 100px; margin-top: 38px; margin-left: 52px;">
                         <div class="d-flex justify-content-around flex-wrap align-items-center">
-                            <img src="img/partner-logo1.png" alt="Partenaire 1" style="max-height: 40px; margin: 10px; max-width: 10%;">
-                            <img src="img/partner-logo2.avif" alt="Partenaire 2" style="max-height: 40px; margin: 10px; max-width: 10%;">
-                            <img src="img/partner-logo3.avif" alt="Partenaire 3" style="max-height: 40px; margin: 10px; max-width: 10%;">
-                            <img src="img/partner-logo4.png" alt="Partenaire 4" style="max-height: 40px; margin: 10px; max-width: 10%;">
-                            <img src="img/partner-logo5.avif" alt="Partenaire 5" style="max-height: 40px; margin: 10px; max-width: 10%;">
-                            <img src="img/partner-logo6.avif" alt="Partenaire 6" style="max-height: 40px; margin: 10px; max-width: 10%;">
-                            <img src="img/partner-logo7.avif" alt="Partenaire 7" style="max-height: 40px; margin: 10px; max-width: 10%;">
-                            <span style="font-size: 7px; margin: 10px; color:rgb(162, 166, 148);">et des centaines <br> d’autres partenaires</span>
+                            <img src="img/partner-logo1.png" alt="Partenaire 1" style="max-height: 40px;   max-width: 9%; ">
+                            <img src="img/partner-logo2.avif" alt="Partenaire 2" style="max-height: 40px;  max-width: 9%;">
+                            <img src="img/partner-logo3.avif" alt="Partenaire 3" style="max-height: 40px;  max-width: 9%;">
+                            <img src="img/partner-logo4.png" alt="Partenaire 4" style="max-height: 40px;  max-width: 9%;">
+                            <img src="img/partner-logo5.avif" alt="Partenaire 5" style="max-height: 40px;  max-width: 9%;">
+                            <img src="img/partner-logo6.avif" alt="Partenaire 6" style="max-height: 40px;  max-width: 9%;">
+                            <img src="img/partner-logo7.avif" alt="Partenaire 7" style="max-height: 40px;  max-width: 9%;">
+                            <span style="font-size: 12px; margin: 10px; color:rgb(162, 166, 148);">et des centaines <br> d’autres partenaires</span>
                         </div>
                     </div>
                 </div>
@@ -118,18 +124,19 @@
     <h2>Détails de la Ville</h2>
     <div id="city-detail-content"></div>
 </div>
-    <div class="container mt-15">
-        <h2 style="margin-left:15px">Quelques villes de la RDC</h2>
+    <div class="container mt-15" style="width: 81%; margin-top: 0px; ">
+        <h5 style="margin-left:15px;font-weight: bold; font-family: 'Arial', sans-serif;font-size:25px;margin-left:15px">Quelques villes de la république  </h5>
         <div class="hotel-carousel">
             <div class="carousel-container" id="city-carousel">
                 <div class="carousel-slide active">
                     <div class="row justify-content-center">
                         <?php foreach ($villesLimit as $ville): ?>
-                            <div class="col-md-4">
-                                <div class="hotel-card">
+                            <div class="col-md-3">
+                                <div class="hotel-card" >
+                                    
                                     <a href="/city/<?= $ville['id'] ?>"><img src="<?= $ville['image'] ?>" alt="<?= $ville['nom_ville'] ?>" class="hotel-image"></a>
-                                    <h5><?= strtoupper($ville['nom_ville']) ?></h5>
-                                    <p class="rating"><?= $ville['population'] ?> habitants
+                                    <h5><?= $ville['nom_ville'] ?></h5>
+                                    <p class="rating"> <?= $ville['population'] ?>
                                         <span class="location">
                                             <i class="fas fa-map-marker-alt"></i> <?= $ville['nom_province'] ?>
                                         </span>
@@ -141,10 +148,10 @@
                                         <div class="petit">
                                             <div class="petit1">
                                                 <div class="row">
-                                                    <div class="gauche">Superficie:</div>
-                                                    <div class="droite"> <?= $ville['superficie'] ?></div>
+                                                    <div class="gauche" style="color:red">Superficie:</div>
+                                                    <div class="droite" > <?= $ville['superficie'] ?></div>
                                                 </div>
-                                                <button class="btn" onclick="showCityDetails(<?= $ville['id'] ?>)">Consulter</button>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -157,7 +164,60 @@
         </div>
     </div>
 
-  
+    
+ <div class="container-final" >
+    <div class="container"  >
+        <div class="row" >
+            <div class="col-md-12 text-center">
+                <h2 style="font-family: inherit; font-size: 25px; color: #fff; margin-top: -10px;font-weight: bold;">Explorez les merveilles de la République Démocratique du Congo</h2>
+                <p style="font-family: inherit; font-size: 16px; color: #fff;font-weight: bold;">Découvrez la beauté et la diversité de notre pays à travers ses provinces et ses villes.</p>
+            </div>
+        </div>
+        
+        <div class="destination-list">
+            <div class="destination-item">
+              
+
+                
+                <span>Bandundu ville</span>
+                <span>Kwilu </span>
+                
+            </div>
+            <div class="destination-item">
+                <span>Bunia</span>
+                <span>Ituri </span>
+            </div>
+            <div class="destination-item">
+                <span>Kinshasa</span>
+                <span>Kinshasa </span>
+            </div>
+            <div class="destination-item">
+                <span>Lubumbashi</span>
+                <span>Haut-katanga </span>
+            </div>
+            <div class="destination-item">
+                <span>Kindu</span>
+                <span>Maniema</span>
+            </div>
+            <div class="destination-item">
+                <span>Kabinda</span>
+                <span>Lomami</span>
+            </div>
+            <div class="destination-item">
+                <span>Kikwit</span>
+                <span>Kwilu</span>
+            </div>
+            <div class="destination-item">
+                <span>Matadi</span>
+                <span>Kongo-central</span>
+            </div>
+    </div>
+    </div>
+    
+</div>
+    
+
+
     <div class="modal fade" id="cityDetailModal" tabindex="-1" aria-labelledby="cityDetailModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -218,16 +278,16 @@
         </div>
     </div>
  
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header align-items-center">
-                    <img src="img/Trivago-Logo.png" alt="" style="width: 120px; height: 69px; margin-right: auto;"> 
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal fade" id="loginModal" style="width: 100%;" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" >
+            <div class="modal-content" style=" background-color:rgb(252, 252, 252); height: auto;">
+                <div class="modal1">
+                    <img src="img/Trivago-Logo.png" alt="" style="width: 120px; height: 69px; margin-right: 310px; margin-left:15px"> 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color:red;"></button>
                 </div>
-                <div class="modal-body">
-                    <h5 class="modal-title" id="loginModalLabel">Économisez plus grâce à votre statut de membre</h5>
-                    <div class="d-flex justify-content-around mb-3">
+                <div class="modal-body" >
+                    <h5 class="modal-title" id="loginModalLabel" style="margin-top: -22px; font-family: Arial, sans-serif;font-weight: bold;">Économisez plus grâce à votre statut de membre</h5>
+                    <div class="d-flex justify-content-around mb-3" style="margin-top: 25px; margin-left: -5px;">
                         <button class="btn btn-outline-primary btn-social">
                             <i class="fab fa-google"></i> Google
                         </button>
@@ -238,9 +298,13 @@
                             <i class="fab fa-facebook-f"></i> Facebook
                         </button>
                     </div>
-                    <p class="text-center">ou</p>
-                    <button class="btn btn-primary w-100 h-100">Se connecter ou créer un compte</button>
-                    <p style="font-size:13px; margin-top:12px;">En créant un compte, vous acceptez notre <a href="#">Charte de confidentialité</a> et nos <a href="#">Conditions générales d’utilisation.</a></p>
+                            <div style="text-align: center; margin: 0px;">
+                            <hr style="border: 1px solid #ccc; width: 40%; display: inline-block;">
+                            <span style="margin: 0 10px; font-weight: bold;">ou</span>
+                            <hr style="border: 1px solid #ccc; width: 40%; display: inline-block;">
+                            </div>
+                    <button class="btn btn-primary w-100 h-100" style="margin-top:-10px;font-family: Arial, sans-serif;font-weight: bold;">Se connecter ou créer un compte</button>
+                    <p style="font-size:11px; margin-top:12px;"> En créant un compte, vous acceptez notre <a href="#">Charte de confidentialité</a> et nos <a href="#">Conditions générales d’utilisation.</a></p>
                 </div>
             </div>
         </div>
@@ -304,139 +368,179 @@
    
     <script src=" js/main.js"></script>
 <script>
-                        $(document).ready(function() {
-                            $('.language-link').on('click', function(event) {
-                                event.preventDefault(); // Prevent default link behavior
-                                $('#languageModal').modal('show'); // Show the modal
-                            });
+            $(document).ready(function() {
+                $('.language-link').on('click', function(event) {
+                    event.preventDefault(); 
+                    $('#languageModal').modal('show'); 
+                });
 
-                            $('#loginLink').on('click', function(event) {
-                                event.preventDefault(); // Prevent default link behavior
-                                $('#loginModal').modal('show'); // Show the login modal
-                            });
+                $('#loginLink').on('click', function(event) {
+                    event.preventDefault(); 
+                    $('#loginModal').modal('show'); 
+                });
 
-                            let timeout; // Variable pour le délai
+                let timeout; // Variable pour le délai
 
-                            $('#search-input').on('input', function() {
-                        const searchTerm = $(this).val().trim();
+                $('#search-input').on('input', function() {
+                    const searchTerm = $(this).val().trim();
 
-                        clearTimeout(timeout);
+                    clearTimeout(timeout);
 
-                        if (searchTerm) {
-                            timeout = setTimeout(function() {
-                                $.ajax({
-                                    url: '/city/get_info',
-                                    type: 'GET',
-                                    data: { name: searchTerm },
-                                    dataType: 'json',
-                                    success: function(response) {
-                                        let suggestions = '';
-                                        if (Array.isArray(response) && response.length) {
-                                            $('#province-name').text(searchTerm);
+                    if (searchTerm) {
+                        timeout = setTimeout(function() {
+                            $.ajax({
+                                url: '/city/get_info',
+                                type: 'GET',
+                                data: { name: searchTerm },
+                                dataType: 'json',
+                                success: function(response) {
+                                    let suggestions = '';
+                                    if (Array.isArray(response) && response.length) {
+                                        $('#province-name').text(searchTerm);
 
-                                            response.forEach(city => {
-                                            
-                                                suggestions += `<a href="#" onclick="showCityDetails(${city.id})" class="suggestion-item"><i class="fas fa-map-marker-alt"></i> La ville de <span class="span">${city.nom_ville}</span></a>`;
-                                            });
-                                        } else {
-                                            suggestions = '<div class="suggestion-item">Aucun résultat trouvé</div>';
-                                        }
-
-                                      
-                                        $('#custom-popup').html(`<div class="popup-title">Les villes de la province de <span id="province-name">${searchTerm}</span></div>${suggestions}`).show();
-                                    },
-                                    error: function() {
-                                        Swal.fire('Erreur', 'Erreur lors de la recherche.', 'error');
+                                        response.forEach(city => {
+                                            suggestions += `<a href="#" onclick="selectCity('${city.nom_ville}', ${city.id})" class="suggestion-item"><i class="fas fa-map-marker-alt"></i> La ville de <span class="span">${city.nom_ville}</span></a>`;
+                                        });
+                                    } else {
+                                        suggestions = '<div class="suggestion-item">Aucun résultat trouvé</div>';
                                     }
-                                });
-                            }, 500); // Délai de 500 ms
-                        } else {
-                            $('#custom-popup').hide(); // Masquer le popup si aucun texte
-                        }
-                    });
-                            const villes = <?= json_encode($villes); ?>; // je Transmet toutes les villes au JavaScript
-                            let index = 0;
 
-                    function updateCities() {
-                        const carouselContainer = document.getElementById('city-carousel');
-                        carouselContainer.innerHTML = ''; // Efface le contenu précédent
-
-                        // Crée une nouvelle slide
-                        const newSlide = document.createElement('div');
-                        newSlide.className = 'carousel-slide active';
-                        const row = document.createElement('div');
-                        row.className = 'row justify-content-center';
-
-                        // Ajoute les 3 prochaines villes
-                        for (let i = 0; i < 3; i++) {
-                            if (index >= villes.length) {
-                                index = 0; // Réinitialise l'index
-                            }
-                            const ville = villes[index++];
-                            const col = document.createElement('div');
-                            col.className = 'col-md-4';
-                            col.innerHTML = `
-                                <div class="hotel-card">
-                                    <a href="#" onclick="showCityDetails(${ville.id})"><img src="${ville.image}" alt="${ville.nom_ville}" class="hotel-image"></a>
-                                    <h5>${ville.nom_ville.toUpperCase()}</h5>
-                                    <p class="rating">${ville.population} habitants
-                                        <span class="location">
-                                            <i class="fas fa-map-marker-alt"></i> ${ville.nom_province}
-                                        </span>
-                                    </p>
-                                    <div class="grand">
-                                        <div class="legend"><span class="discount-badge">Détail</span> Moins cher qu'à l'habitude</div>
-                                        <div class="petit">
-                                            <div class="petit1">
-                                                <div class="row">
-                                                    <div class="gauche">Superficie:</div>
-                                                    <div class="droite">${ville.superficie}</div>
-                                                </div>
-                                                <button class="btn" onclick="showCityDetails(${ville.id})">Consulter</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            `;
-                            row.appendChild(col);
-                        }
-                        newSlide.appendChild(row);
-                        carouselContainer.appendChild(newSlide);
+                                    $('#custom-popup').html(`<div class="popup-title">Les villes de la province de <span id="province-name">${searchTerm}</span></div>${suggestions}`).show();
+                                },
+                                error: function() {
+                                    Swal.fire('Erreur', 'Erreur lors de la recherche.', 'error');
+                                }
+                            });
+                        }, 500); // Délai de 500 ms
+                    } else {
+                        $('#custom-popup').hide(); // Masquer le popup si aucun texte
                     }
+                });
 
-                            setInterval(updateCities, 7000); // Changez les villes toutes les 7 secondes
-                            updateCities();
+                const villes = <?= json_encode($villes); ?>; // Transmet toutes les villes au JavaScript
+                let index = 0;
+
+                function updateVilles() {
+                    const carouselContainer = document.getElementById('city-carousel');
+                    carouselContainer.innerHTML = ''; // Efface le contenu précédent
+
+                    // Crée une nouvelle slide
+                    const newSlide = document.createElement('div');
+                    newSlide.className = 'carousel-slide active';
+                    const row = document.createElement('div');
+                    row.className = 'row justify-content-center';
+
+                    // Ajoute les 3 prochaines villes
+                    for (let i = 0; i < 3; i++) {
+                        if (index >= villes.length) {
+                            index = 0; // Réinitialise l'index
+                        }
+                        const ville = villes[index++];
+                        const col = document.createElement('div');
+                        col.className = 'col-md-4';
+                        col.innerHTML = `
+                <div class="hotel-card">
+                    <div class="image-container">  <!-- Nouveau conteneur pour l'image -->
+                        <a href="#" onclick="showCityDetails(${ville.id})">
+                            <img src="${ville.image}" alt="${ville.nom_ville}" class="hotel-image">
+                        </a>
+                                    </div>  
+                    <h5>${ville.nom_ville}</h5>
+                    <p class="rating" style="margin-left:15px;font-family: 'Arial', sans-serif;">
+                        <span class="habitants">habitants</span> (${ville.population})
+                        <span class="location">
+                            <i class="fas fa-map-marker-alt"></i> ${ville.nom_province}
+                        </span>
+                    </p>
+                    <div class="grand">
+                        <div class="legend">
+                            <div class="discount-badge">
+                                <p>Détail</p>
+                            </div>
+                            <p style="color:rgb(190, 56, 56); margin-top:-17px">A propos de la ville</p>
+                        </div>
+                        <div class="petit">
+                            <div class="petit1">
+                                <div class="row">
+                                    <div class="gauche">Superficie:</div>
+                                    <div class="droite">${ville.superficie}</div>
+                                </div>
+                                <button class="btnConsulter" onclick="showCityDetails(${ville.id})">Consulter</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        `;
+                        row.appendChild(col);
+                    }
+                    newSlide.appendChild(row);
+                    carouselContainer.appendChild(newSlide);
+                }
+
+                setInterval(updateVilles, 7000); // Changez les villes toutes les 7 secondes
+                updateVilles();
+
+                // Événement de clic pour le bouton de recherche
+                $('#search-button').on('click', function() {
+                    const cityName = $('#city-input').val().trim();
+                    const city = villes.find(v => v.nom_ville === cityName); // Cherche la ville par son nom
+
+                    if (city) {
+                        showCityDetails(city.id); // Afficher les détails de la ville
+                    } else {
+                        Swal.fire('Oups', 'Aucune ville n\'a été sélectionnér', 'info');
+                    }
+                });
+            });
+
+            // Fonction pour sélectionner une ville
+            function selectCity(cityName, cityId) {
+                $('#city-input').val(cityName); // je rempli le champ de la ville
+                $('#custom-popup').hide(); // Masquer le popup
+            }
+
+            // Fonction pour afficher les détails de la ville
+            function showCityDetails(cityId) {
+                $.ajax({
+                    url: '/city/get_details/' + cityId,
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(data) {
+                        if (data) {
+                            let detailSection = `
+                                <h4>${data.nom_ville}</h4>
+                                <img src="${data.image}" alt="${data.nom_ville}" style="width: 80%; height: 200px; border-radius:5px;" />
+                                <p><strong>Population:</strong> ${data.population}</p>
+                                <p><strong>Superficie:</strong> ${data.superficie} km²</p>
+                                <p><strong>Province:</strong> ${data.nom_province}</p>
+                                <p><strong>Langue:</strong> ${data.langue}</p>
+                            `;
+                            $('#cityDetailContent').html(detailSection);
+                            $('#cityDetailModal').modal('show'); 
+                        } else {
+                            Swal.fire('Erreur', 'Détails de la ville non trouvés.', 'error');
+                        }
+                    },
+                    error: function(jqXHR, textStatus) {
+                        console.error("Erreur AJAX : ", textStatus);
+                        Swal.fire('Erreur', 'Erreur lors de la récupération des détails : ' + textStatus, 'error');
+                    }
+                });
+            }
 
 
-                        });
-                    function showCityDetails(cityId) {
-                                event.preventDefault(); 
-                                $.ajax({
-                                    url: '/city/get_details/' + cityId,
-                                    type: 'GET',
-                                    dataType: 'json',
-                                    success: function(data) {
-                                        if (data) {
-                                            let detailSection = `
-                                                <h4>${data.nom_ville}</h4>
-                                                <img src="${data.image}" alt="${data.nom_ville}" style="width: 80%; height: auto; "; border-radius:4px; />
-                                                <p><strong>Population:</strong> ${data.population}</p>
-                                                <p><strong>Superficie:</strong> ${data.superficie} km²</p>
-                                                <p><strong>Province:</strong> ${data.nom_province}</p>
-                                                <p><strong>Langue:</strong> ${data.langue}</p>
-                                            `;
-                                            $('#cityDetailContent').html(detailSection);
-                                            $('#cityDetailModal').modal('show'); 
-                                        } else {
-                                            Swal.fire('Erreur', 'Détails de la ville non trouvés.', 'error');
-                                        }
-                                    },
-                                    error: function(jqXHR, textStatus, errorThrown) {
-                                        console.error("Erreur AJAX : ", textStatus, errorThrown);
-                                        Swal.fire('Erreur', 'Erreur lors de la récupération des détails : ' + textStatus, 'error');
-                                    }
-                                });
-                            }
+            function toggleClearButton() {
+                    const input = document.getElementById('search-input');
+                    const clearButton = document.getElementById('clear-button');
+                    clearButton.style.display = input.value ? 'block' : 'none';
+                }
+
+                function clearInput() {
+                    const input = document.getElementById('search-input');
+                    input.value = '';
+                    toggleClearButton();
+                    input.focus();
+    }
 </script>
 </body>
 </html>

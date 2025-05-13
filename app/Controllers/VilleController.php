@@ -23,7 +23,11 @@ class VilleController extends Controller
         $data['provinces'] = $this->provinceModel->findAll();
         return view('Villes/ville', $data); 
     }
-
+public function showTopFiveVilles()
+{
+    $data['Villes'] = $this->villeModel->getTopFiveVilles(); 
+    return view('index', $data); 
+}
     public function store()
     {
         try {

@@ -3,6 +3,7 @@
 body {
     padding-top: 80px; 
     overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .fixed-top {
@@ -16,8 +17,8 @@ body {
 
 .navbar-nav .nav-item:hover .nav-link,
 .navbar-nav .nav-item .nav-link:hover {
-    background-color: rgba(211, 211, 211, 0.5); 
-    color: #000; 
+    background-color: rgba(251, 7, 7, 0.5); 
+    color: #f80000; 
 }
 .navbar-nav .nav-item:hover .nav-link,
 .navbar-nav .nav-item .nav-link:hover {
@@ -30,6 +31,17 @@ body {
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
+.nav-item .nav-link {
+    display: flex;
+    align-items: center; 
+    font-size: 16px; 
+    color: black; 
+}
+
+.nav-item .nav-link::after {
+    display: none; 
+}
+
 
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;
@@ -56,7 +68,22 @@ body {
     font-weight: 600;
     transition: .5s;
 }
-
+.btnConsulter{
+    background-color:#0079c2;
+    width: 95%;
+    height: 38px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 3%;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btnConsulter:hover{
+    background-color: #00578b;
+}
 .btn-square {
     width: 32px;
     height: 32px;
@@ -264,7 +291,10 @@ h6 {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--bs-primary) !important;
+   background-color: #edf1f4;
+   
+   height: 39px;
+   opacity: 1;
 }
 
 .navbar-light .navbar-brand img {
@@ -346,6 +376,9 @@ h6 {
     .navbar-light .navbar-collapse {
         margin-top: 15px;
         border-top: 1px solid #DDDDDD;
+    } 
+    .collapse a:hover {
+        background-color: red;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -377,10 +410,10 @@ h6 {
         content: "";
         width: 0;
         height: 2px;
-        bottom: -1px;
+    
         left: 50%;
-        background: var(--bs-primary);
-        transition: .5s;
+      
+       
     }
 
     .navbar-light .navbar-nav .nav-link:hover::before,
@@ -1250,20 +1283,45 @@ h6 {
 }
 .hotel-card {
      border: 1px solid #ddd;
-    border-radius: 10px; /* Coins arrondis */
+    border-radius: 44px 44px 10px 10px; /* Coins arrondis */
     padding: 0px; /* Espacement interne */
-   
-    text-align: center; /* Alignement à gauche */
+    width: 100%;
+    text-align: left; /* Alignement à gauche */
     margin: 15px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     background-color: #fff; /* Couleur de fond blanche */
-    position: relative; /* Pour positionner le badge de réduction */
+    position: relative; 
+   max-height: 600px;
+ 
+   
+}
+.hotel-card h5{
+    font-size: 1.2rem;
+    margin: 10px 0; /* Espacement autour du titre */
+    font-weight: bold; /* Gras */
+    color: #020202; /* Couleur du texte */
+    margin-left: 15px;
+    font-family: 'Arial', sans-serif;
+    
+}
+.image-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%; 
+  height: 150px;
+  border-radius: 10px 10px 0 0;
 }
 
+
 .hotel-image {
-    width: 100%;
-    height:290px;
-    border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: transform 0.3s ease; /* Animation de transition */
+}
+.hotel-image:hover {
+  transform: scale(1.08); 
+ filter: brightness(0.9); 
 }
 
 .rating {
@@ -1308,6 +1366,7 @@ h6 {
     border-radius: 5px;
     cursor: pointer;
     width: 5%; 
+    font-family: inherit;
 }
 .gauche{
     margin-left: 20px;
@@ -1327,11 +1386,11 @@ h6 {
 .grand{
   border: 1px solid rgb(185, 178, 178);
   height: 140px;
-  width: 90%;
+  width: 93%;
   border-radius: 10px;
   position: relative;
   margin-top: 20px;
-margin-left: 13px;
+margin-left: 10px;
   margin-bottom: 10px;
   
 }
@@ -1342,22 +1401,35 @@ margin-left: 13px;
 }
 .legend{
     position: absolute;
-    top: -12px;
-    left: 11%;
-    width: 100;
-    height: 30px;
+    top: -10px;
+    left: 15%;
+    width: 70%;
+    height: 17px;
     margin: auto;
     padding: 10px 20px; 
-   border:1px solid rgb(222, 12, 12);
-    border-radius: 10px; 
+   border:1px solid rgb(177, 35, 46);
+    border-radius: 6px; 
     padding: 5px; 
-    box-sizing: border-box;
+    box-sizing: border-box; 
     margin-bottom: 100px;
     z-index: 2;
     background-color: white;
     color: rgb(239, 7, 7);
-    font-size: 12px;
+    font-size: 10px;
      font-weight: bold; 
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 10px;
+     
+}
+.legend p{
+    margin-top: -20px;
+   text-align: right;
+    font-size: 12px; 
+    font-weight: bold; 
+    color: rgb(156, 7, 7); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+   
 }
 .row {
         display: flex;
@@ -1376,6 +1448,8 @@ margin-left: 13px;
     
     .droite {
         text-align: right;
+        margin-right: 10px;
+        font-family: 'Arial', sans-serif; 
   
     }
     
@@ -1401,20 +1475,19 @@ margin-left: 13px;
     margin-top: 50px;
 }
 .location {
-  margin-left: 10px;
+  margin-left: 50px;
   color: #555;
 }
 #search-input{
-   height: 53px;
-   background-color: rgb(250, 250, 250);
-   border: 0px solid #ccc;
+   height: 40px;
+   
+background-color: transparent;
+  border-radius: 3px;
+   width: 1%;
+   margin-top:3px;
+   border: none;
 }
-#search-input:hover {
-    outline: none;
-    border-color: #f3f5f7; 
-    box-shadow: 0 0 5px rgba(218, 240, 240, 0.5); 
-    background-color: #e6eff2;
-}
+
 .fa-map-marker-alt {
   margin-right: 5px;
   color: #222121; /
@@ -1422,12 +1495,17 @@ margin-left: 13px;
 .hotel-carousel {
         position: relative;
         overflow: hidden;
+        
+        width: 100%;
   
     }
     
     .carousel-container {
         display: flex;
         transition: transform 0.5s ease;
+        padding: 0px;
+
+        width: 100%;
     }
     
     .carousel-slide {
@@ -1466,7 +1544,7 @@ margin-left: 13px;
      .custom-popup {
         position: absolute; 
         bottom: 20px; 
-        left: 20px; 
+        left: 10px; 
         border: 1px solid #ccc;
         background-color: rgb(224, 225, 222); 
         border-radius: 15px;
@@ -1477,8 +1555,8 @@ margin-left: 13px;
         z-index: 1000; 
         padding: 10px; 
         /* Hauteur personnalisée */
-        margin-left: 150px; 
-        margin-top: 40px; 
+        margin-left: 0px; 
+      
         margin-top: -200px;
         height: auto;
     }
@@ -1580,9 +1658,12 @@ margin-left: 13px;
 }
 .popup-title {
     font-weight: bold; /* Gras */
-    padding: 10px 15px; /* Espacement interne */
+  
     border-bottom: 1px solid #ccc; /* Bordure en bas */
-    background-color: #f9f9f9; /* Couleur de fond */
+    background-color: #ede9e9; /* Couleur de fond */
+    width: 100%;
+    height: 45px;
+    padding: 10px 10px 10px 10px;
 }
 
     .modale-body-content {
@@ -1609,18 +1690,203 @@ margin-left: 13px;
         color: #000;
     }
 .btn-close{
-    background-color: red;
+    background-color: transparent;
+    color: #000;
+  
 }
 .discount-badge {
-    background-color: rgb(145, 3, 3); /* Couleur de fond rouge */
+    background-color: rgb(190, 56, 56); /* Couleur de fond rouge */
     color: white;          /* Couleur du texte en blanc */
-     /* Un peu de remplissage */
-       /* Coins arrondis */
+    font-size: 11px;      /* Taille de police */
     font-weight: bold;     /* Texte en gras */
-    height: 40px;
-    width: 100%;
-    padding: 6px 6px 7px 1px;
-    border-radius: 10px 0px 0px 10px ; /* Coins arrondis */
-    margin-left: -5px;
-   top:-2px
+    height: 17px;
+    width: 24%;
+
+    border-radius: 5px 0px 0px 5px; /* Coins arrondis */
+   font-family: inherit;
+    margin-left: -6px;
+    margin-top: -6px;
+    
+  
 }
+.discount-badge p {
+    color: rgb(252, 253, 251);
+    margin-top: -4px;
+  text-align: center;
+    margin-left: 5px;
+}
+
+.btnConsuleter{
+    background-color: rgb(234, 19, 33);
+}
+.search-button{
+
+border-radius: 8px; 
+height: 70px; 
+background-color:#0079c2;
+ color: white; margin-left: 14px; 
+ width: 345px; 
+ border: none; 
+ height: 45px;
+  font-size:15px; 
+  
+   font-family:Arial, Helvetica, sans-serif
+}
+.search-button strong {
+   font-weight: bold;
+   font-family: inherit;
+}
+.search-button:hover {
+    background-color: #392eba; 
+    color: white; 
+    cursor: pointer; 
+}
+.gauche{
+    color: rgb(6, 6, 6);
+}
+.droite{
+    color: black;
+}
+
+.habitants{
+    color:rgb(6, 6, 6);
+    font-weight: bold;
+    font-size: 13px;
+}
+.rating{
+   
+   
+    font-size: 13px;
+}
+.modal-header {
+    display: flex;
+    align-items: center; /* Centre le logo et le bouton de fermeture verticalement */
+}
+
+.btn-social {
+    flex: 1; /* Assure que les boutons sociaux prennent un espace égal */
+    margin: 0 5px; /* Ajoute un petit espacement entre les boutons */
+}
+.navbar-nav .nav-link {
+    transition: none; /* Supprime les effets de transition */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f80505; /* Assurez-vous que la couleur reste la même au survol */
+    background-color: transparent; /* Supprime l'effet de fond */
+}
+
+.input-group  {
+   
+width:100%;
+border-radius: 10px;
+height: 90%;
+
+}
+
+.input-group:focus-within {
+    border: 2px solid rgb(39, 39, 240);
+}
+.barre{
+    border:0.3px solid grey;
+     width:auto;
+     height:60px;
+   margin: 0px  0px 0px 8px;
+   font-size: 0.5px;
+}
+
+.container-final {
+    background-image: url('../img/kin2.jpg'); 
+    background-position: center;
+    background-size: cover; 
+    padding: 50px 0;
+    position: relative;
+    width: 77%;
+    height: 400px;
+    margin-left: 150px;
+   border-radius:15px 15px 0px 0px;
+   margin-top: 50px;
+   margin-bottom: 200px;
+  
+
+}
+
+.container-final::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%);
+    z-index: 1;
+ 
+  
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    
+    
+}
+.destination-list {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+   margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-left: 90px;
+    gap: 10px; 
+    position:absolute;
+       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.destination-item {
+    padding: 15px;
+    border: 1px solid #bfbdbd;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    transition: background-color 0.3s;
+    color: black; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.destination-item:hover {
+    background-color: rgb(230, 230, 254);
+    color: rgb(13, 13, 13);
+}
+.input-group {
+    margin: 20px 0;
+}
+
+.input-group input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-group:focus-within {
+    border: 2px solid rgb(39, 39, 240);
+}
+
+
+
+.destination-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.destination-item:last-child {
+    border-bottom: none;
+}
+
+
+

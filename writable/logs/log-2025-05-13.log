@@ -1,0 +1,75 @@
+CRITICAL - 2025-05-13 06:28:32 --> ErrorException: Undefined array key "prix_min"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 181.
+ 1 APPPATH\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prix_min"', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 181)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-13 06:31:26 --> ErrorException: Undefined array key "prix_min"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 181.
+ 1 APPPATH\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prix_min"', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 181)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-13 06:32:23 --> ErrorException: Undefined array key "province_nom"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 181.
+ 1 APPPATH\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "province_nom"', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 181)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-13 06:40:55 --> ErrorException: Undefined variable $topVilles
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 178.
+ 1 APPPATH\Views\index.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topVilles', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 178)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-13 06:41:51 --> ErrorException: Undefined variable $Villes
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 178.
+ 1 APPPATH\Views\index.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Villes', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 178)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')

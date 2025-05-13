@@ -34,7 +34,7 @@ public function store()
         'nom_province' => $this->request->getPost('nom_province'),
     ];
 
-    // Vérifiez la validation avant d'insérer
+    // je vérifie la validation avant d'insérer
     if (!$this->provinceModel->validate($data)) {
         return $this->response->setJSON(['success' => false, 'message' => $this->provinceModel->errors()]);
     }
@@ -46,15 +46,15 @@ public function store()
     }
 }
 
-    // Affiche le formulaire pour éditer une province
+    // j'affiche le formulaire pour éditer une province
     public function edit($id)
     {
         $data['province'] = $this->provinceModel->find($id);
         return view('province_edit', $data); // Charge la vue pour éditer la province
     }
 
-    // Traite la mise à jour d'une province
-  // Traite la mise à jour d'une province
+  
+  // Traitement la mise à jour d'une province
 public function update($id)
 {
     $data = [

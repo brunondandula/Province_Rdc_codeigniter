@@ -28,3 +28,8 @@ $routes->delete('villes/delete/(:num)', 'VilleController::delete/$1');
 $routes->get('city/get_info', 'City::get_info');
 $routes->get('/city/(:num)', 'Home::show/$1'); 
 $routes->get('city/get_details/(:num)', 'City::get_details/$1');
+$routes->get('villes/top-five', 'VilleController::showTopFiveVilles');
+
+
+
+   
