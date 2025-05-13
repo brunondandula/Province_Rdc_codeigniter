@@ -362,7 +362,7 @@
                 if (result.isConfirmed) {
                     $.ajax({
                         url: '/villes/delete/' + id,
-                        type: 'POST', // Certains serveurs n'acceptent pas DELETE
+                        type: 'POST', 
                         data: {_method: 'DELETE'},
                         success: function(response) {
                             if (response.success) {
@@ -414,7 +414,7 @@
         }
 
         function updateTable() {
-            const start = (currentPage - 1) * itemsPerPage;
+            const start = (currentPage - 1) * itemsPerPage; //ici on calcule le début de la page
             const end = start + itemsPerPage;
             const paginatedData = filteredData.slice(start, end);
 

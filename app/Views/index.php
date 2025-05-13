@@ -113,7 +113,7 @@
         </div>
     </div>
 
-    <div id="results" class="mt-4"></div>
+    <div id="results" class="mt-4" style="width:90%"></div>
 <div id="city-details" class="mt-4" style="display: none;">
     <h2>Détails de la Ville</h2>
     <div id="city-detail-content"></div>
