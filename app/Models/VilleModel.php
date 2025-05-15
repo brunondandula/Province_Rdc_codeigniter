@@ -29,6 +29,12 @@ class VilleModel extends Model
                     ->join('provinces', 'provinces.id = villes.province_id')
                     ->findAll();
     }
+    public function getPopularVilles($limit)
+{
+    return $this->select('villes.*, provinces.nom_province') 
+                ->join('provinces', 'provinces.id = villes.province_id')
+                ->findAll($limit); 
+}
 public function getTopFiveVilles()
 {
     return $this->select('villes.*, provinces.nom_province')

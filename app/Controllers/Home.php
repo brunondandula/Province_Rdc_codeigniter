@@ -15,9 +15,10 @@ class Home extends BaseController
         $this->villeModel = new VilleModel();
         $this->provinceModel = new ProvinceModel();
     }
-   public function index(): string
+   public function index()
 {
     $data['villes'] = $this->villeModel->getAllVilles();
+    $data['villes4'] = $this->villeModel->getPopularVilles(4); 
     $data['provinces'] = $this->provinceModel->findAll();
     
     
@@ -25,7 +26,9 @@ class Home extends BaseController
 
     return view('index', $data);
 }
-public function show($id): string
+
+
+public function show($id)
 {
     $data['ville'] = $this->villeModel->getVilleDetails($id); 
      

@@ -168,54 +168,98 @@
  <div class="container-final" >
     <div class="container"  >
         <div class="row" >
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center" id="photoecrit">
                 <h2 style="font-family: inherit; font-size: 25px; color: #fff; margin-top: -10px;font-weight: bold;">Explorez les merveilles de la République Démocratique du Congo</h2>
                 <p style="font-family: inherit; font-size: 16px; color: #fff;font-weight: bold;">Découvrez la beauté et la diversité de notre pays à travers ses provinces et ses villes.</p>
             </div>
         </div>
         
         <div class="destination-list">
-            <div class="destination-item">
-              
-
-                
-                <span>Bandundu ville</span>
-                <span>Kwilu </span>
-                
-            </div>
-            <div class="destination-item">
-                <span>Bunia</span>
-                <span>Ituri </span>
-            </div>
-            <div class="destination-item">
-                <span>Kinshasa</span>
-                <span>Kinshasa </span>
-            </div>
-            <div class="destination-item">
-                <span>Lubumbashi</span>
-                <span>Haut-katanga </span>
-            </div>
-            <div class="destination-item">
-                <span>Kindu</span>
-                <span>Maniema</span>
-            </div>
-            <div class="destination-item">
-                <span>Kabinda</span>
-                <span>Lomami</span>
-            </div>
-            <div class="destination-item">
-                <span>Kikwit</span>
-                <span>Kwilu</span>
-            </div>
-            <div class="destination-item">
-                <span>Matadi</span>
-                <span>Kongo-central</span>
-            </div>
+    <div class="destination-container">
+        <div class="destination-item active"> <p class="para" style="margin-top:-5px; font-weight: bold;">kwilu</p></div>
+        <div class="destination-item"><p class="para" style="margin-top:-5px">Kinshasa</p></div>
+        <div class="destination-item"><p class="para"   style="margin-top:-5px">Ituri</p></div>
+        <div class="destination-item"><p class="para"   style="margin-top:-5px">Kasai</p></div>
+        <div class="destination-item"><p class="para"   style="margin-top:-5px">kwango</p></div>
+        <div class="destination-item"><p class="para"   style="margin-top:-5px">maniema</p></div>
+        <div class="destination-item"><p class="para"   style="margin-top:-5px">tanganika</p></div>
+      
     </div>
+    <p style=" font-size:11px;margin-left:20px;margin-top:10px">Quelques villes de la république democratique du congo et leurs provinces</p>
+    <div class="destination-details">
+        <div class="destination-item">
+            <span>Bandundu ville</span>
+            <span style="margin-left:146px">Kwilu</span>
+        </div>
+        <div class="destination-item">
+            <span>Bunia</span>
+            <span style="margin-left:228px">Ituri</span>
+        </div>
+        <div class="destination-item " >
+            <span>Kinshasa</span>
+            <span style="margin-left:167px">Kinshasa</span>
+        </div>
+        <div class="destination-item">
+            <span>Lubumbashi</span>
+            <span style="margin-left:103px">Haut-katanga</span>
+        </div>
+        <div class="destination-item">
+            <span>Kindu</span>
+            <span style="margin-left:188px">Maniema</span>
+        </div>
+        <div class="destination-item">
+            <span>Kabinda</span>
+            <span style="margin-left:180px">Lomami</span>
+        </div>
+        <div class="destination-item">
+            <span>Kikwit</span>
+            <span style="margin-left:214px">Kwilu</span>
+        </div>
+        <div class="destination-item">
+            <span>Matadi</span>
+            <span style="margin-left:143px">Kongo-central</span>
+        </div>
+        <div class="destination-item">
+            <span>Kabinda</span>
+            <span style="margin-left:180px">Lomami</span>
+        </div>
+        <div class="destination-item">
+            <span>Kikwit</span>
+            <span style="margin-left:214px">Kwilu</span>
+        </div>
+        <div class="destination-item">
+            <span>Matadi</span>
+            <span style="margin-left:143px">Kongo-central</span>
+        </div>
+        <div class="destination-item">
+            <span>Kabinda</span>
+            <span style="margin-left:180px">Lomami</span>
+        </div>
+       
+        
+    </div>
+</div>
     </div>
     
 </div>
     
+<div class="popular-searches">
+    <h1>Recherches populaires</h1>
+    <div class="card-container">
+        <?php foreach ($villes4 as $ville): ?>
+            <div class="card">
+                <div class="imageFin">
+                    <img src="<?= $ville['image'] ?>" alt="<?= $ville['nom_ville'] ?>" class="card-image">
+                </div>
+                <div class="ecrit">
+                    <h2><?= $ville['nom_ville'] ?></h2>
+                    <p><?= $ville['nom_province'] ?></p>
+                    <p><?= $ville['population'] ?> <span>habitants</span></p>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</div>
 
 
     <div class="modal fade" id="cityDetailModal" tabindex="-1" aria-labelledby="cityDetailModalLabel" aria-hidden="true">
@@ -235,14 +279,14 @@
    
     <div class="modal fade" id="languageModal" tabindex="-1" aria-labelledby="languageModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="languageModalLabel">Sélectionnez la langue et le devise</h5>
+            <div class="modal-content" style="width:85%;height:30%;">
+                <div class="modal-header" >
+                    <h5 class="modal-title" id="languageModalLabel" style="font-family:inherit;font-size:15px;font-weight:bold;">Sélectionnez la langue et le devise</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label for="languageSelect" class="form-label">Langue</label>
+                        <label for="languageSelect" class="form-label" style="font-size:11px;font-family:inherit;color:black">Langue</label>
                         <select class="form-select" id="languageSelect">
                             <option selected>Français</option>
                             <option>Anglais</option>
@@ -250,7 +294,7 @@
                         </select>
                     </div>
                     <div class="mb-3">
-                        <label for="currencySelect" class="form-label">Devise</label>
+                        <label for="currencySelect" class="form-label" style="font-size:11px;font-family:inherit;color:black">Devise</label>
                         <select class="form-select" id="currencySelect">
                             <option selected>EUR - Euro</option>
                             <option>USD - Dollar</option>
@@ -258,8 +302,8 @@
                         </select>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" style="width:100px; margin-right:1px">Appliquer</button>
+                <div class="modal-footer" style="margin-top:-12px">
+                    <button type="button" class="modalBoutonAppli">Appliquer</button>
                 </div>
             </div>
         </div>
@@ -439,37 +483,37 @@
                         const col = document.createElement('div');
                         col.className = 'col-md-4';
                         col.innerHTML = `
-                <div class="hotel-card">
-                    <div class="image-container">  <!-- Nouveau conteneur pour l'image -->
-                        <a href="#" onclick="showCityDetails(${ville.id})">
-                            <img src="${ville.image}" alt="${ville.nom_ville}" class="hotel-image">
-                        </a>
-                                    </div>  
-                    <h5>${ville.nom_ville}</h5>
-                    <p class="rating" style="margin-left:15px;font-family: 'Arial', sans-serif;">
-                        <span class="habitants">habitants</span> (${ville.population})
-                        <span class="location">
-                            <i class="fas fa-map-marker-alt"></i> ${ville.nom_province}
-                        </span>
-                    </p>
-                    <div class="grand">
-                        <div class="legend">
-                            <div class="discount-badge">
-                                <p>Détail</p>
-                            </div>
-                            <p style="color:rgb(190, 56, 56); margin-top:-17px">A propos de la ville</p>
-                        </div>
-                        <div class="petit">
-                            <div class="petit1">
-                                <div class="row">
-                                    <div class="gauche">Superficie:</div>
-                                    <div class="droite">${ville.superficie}</div>
+                            <div class="hotel-card">
+                                <div class="image-container">  <!-- Nouveau conteneur pour l'image -->
+                                    <a href="#" onclick="showCityDetails(${ville.id})">
+                                        <img src="${ville.image}" alt="${ville.nom_ville}" class="hotel-image">
+                                    </a>
+                                                </div>  
+                                <h5>${ville.nom_ville}</h5>
+                                <p class="rating" style="margin-left:15px;font-family: 'Arial', sans-serif;">
+                                    <span class="habitants">habitants</span> (${ville.population})
+                                    <span class="location">
+                                        <i class="fas fa-map-marker-alt"></i> ${ville.nom_province}
+                                    </span>
+                                </p>
+                                <div class="grand">
+                                    <div class="legend">
+                                        <div class="discount-badge">
+                                            <p>Détail</p>
+                                        </div>
+                                        <p style="color:rgb(190, 56, 56); margin-top:-17px">A propos de la ville</p>
+                                    </div>
+                                    <div class="petit">
+                                        <div class="petit1">
+                                            <div class="row">
+                                                <div class="gauche">Superficie:</div>
+                                                <div class="droite">${ville.superficie}</div>
+                                            </div>
+                                            <button class="btnConsulter" onclick="showCityDetails(${ville.id})">Consulter</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <button class="btnConsulter" onclick="showCityDetails(${ville.id})">Consulter</button>
                             </div>
-                        </div>
-                    </div>
-                </div>
                         `;
                         row.appendChild(col);
                     }

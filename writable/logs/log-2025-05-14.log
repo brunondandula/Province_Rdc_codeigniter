@@ -1,0 +1,315 @@
+CRITICAL - 2025-05-14 07:21:36 --> ErrorException: Undefined variable $villesLimit2
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 225.
+ 1 APPPATH\Views\index.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit2', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 225)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 07:22:07 --> ErrorException: Undefined variable $villesLimit2
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 225.
+ 1 APPPATH\Views\index.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit2', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 225)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 07:22:08 --> ErrorException: Undefined variable $villesLimit2
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 225.
+ 1 APPPATH\Views\index.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit2', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 225)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 07:57:08 --> ErrorException: Undefined variable $villesLimit4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 07:58:04 --> ErrorException: Undefined array key "nombre_hotels"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 226.
+ 1 APPPATH\Views\index.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_hotels"', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 226)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 07:59:47 --> ErrorException: Undefined variable $Limite
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Limite', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:00:29 --> ErrorException: Undefined variable $Limite
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Limite', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:00:30 --> ErrorException: Undefined variable $Limite
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Limite', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:00:30 --> ErrorException: Undefined variable $Limite
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Limite', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:02:53 --> ErrorException: Undefined variable $villesLimit4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:02:54 --> ErrorException: Undefined variable $villesLimit4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:02:54 --> ErrorException: Undefined variable $villesLimit4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:02:54 --> ErrorException: Undefined variable $villesLimit4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:02:54 --> ErrorException: Undefined variable $villesLimit4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:02:54 --> ErrorException: Undefined variable $villesLimit4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villesLimit4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:04:54 --> ErrorException: Undefined variable $villes4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 222.
+ 1 APPPATH\Views\index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villes4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:09:58 --> ErrorException: Undefined variable $villes4
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 223.
+ 1 APPPATH\Views\index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $villes4', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 223)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:11:42 --> ErrorException: Undefined array key "nombre_hotels"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 227.
+ 1 APPPATH\Views\index.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_hotels"', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 227)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:11:42 --> ErrorException: Undefined array key "nombre_hotels"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 227.
+ 1 APPPATH\Views\index.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_hotels"', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 227)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:11:43 --> ErrorException: Undefined array key "nombre_hotels"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 227.
+ 1 APPPATH\Views\index.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_hotels"', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 227)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
+CRITICAL - 2025-05-14 08:11:43 --> ErrorException: Undefined array key "nombre_hotels"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 227.
+ 1 APPPATH\Views\index.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_hotels"', 'C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php', 227)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\rdc_province\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\rdc_province\\public\\index.php')
