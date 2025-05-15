@@ -188,52 +188,52 @@
     <p style=" font-size:11px;margin-left:20px;margin-top:10px">Quelques villes de la république democratique du congo et leurs provinces</p>
     <div class="destination-details">
         <div class="destination-item">
-            <span>Bandundu ville</span>
-            <span style="margin-left:146px">Kwilu</span>
+            <span style="font-size:13px;">Bandundu ville</span>
+            <span style="margin-left:175px;font-size:13px">Kwilu</span>
         </div>
         <div class="destination-item">
-            <span>Bunia</span>
-            <span style="margin-left:228px">Ituri</span>
+            <span style="font-size:13px">Bunia</span>
+            <span style="margin-left:235px;font-size:13px">Ituri</span>
         </div>
         <div class="destination-item " >
-            <span>Kinshasa</span>
-            <span style="margin-left:167px">Kinshasa</span>
+            <span style="font-size:13px">Kinshasa</span>
+            <span style="margin-left:190px;font-size:13px">Kinshasa</span>
         </div>
         <div class="destination-item">
-            <span>Lubumbashi</span>
-            <span style="margin-left:103px">Haut-katanga</span>
+            <span style="font-size:13px">Lubumbashi</span>
+            <span style="margin-left:134px;font-size:13px">Haut-katanga</span>
         </div>
         <div class="destination-item">
-            <span>Kindu</span>
-            <span style="margin-left:188px">Maniema</span>
+            <span style="font-size:13px">Kindu</span>
+            <span style="margin-left:210px;font-size:13px">Maniema</span>
         </div>
         <div class="destination-item">
-            <span>Kabinda</span>
-            <span style="margin-left:180px">Lomami</span>
+            <span style="font-size:13px">Kabinda</span>
+            <span style="margin-left:200px;font-size:13px">Lomami</span>
         </div>
         <div class="destination-item">
-            <span>Kikwit</span>
-            <span style="margin-left:214px">Kwilu</span>
+            <span style="font-size:13px">Kikwit</span>
+            <span style="margin-left:229px;font-size:13px">Kwilu</span>
         </div>
         <div class="destination-item">
-            <span>Matadi</span>
-            <span style="margin-left:143px">Kongo-central</span>
+            <span style="font-size:13px">Matadi</span>
+            <span style="margin-left:169px;font-size:13px">Kongo-central</span>
         </div>
         <div class="destination-item">
-            <span>Kabinda</span>
-            <span style="margin-left:180px">Lomami</span>
+            <span style="font-size:13px">Kabinda</span>
+            <span style="margin-left:200px;font-size:13px">Lomami</span>
         </div>
         <div class="destination-item">
-            <span>Kikwit</span>
-            <span style="margin-left:214px">Kwilu</span>
+            <span style="font-size:13px">Kikwit</span>
+            <span style="margin-left:232px;font-size:13px">Kwilu</span>
         </div>
         <div class="destination-item">
-            <span>Matadi</span>
-            <span style="margin-left:143px">Kongo-central</span>
+            <span style="font-size:13px">Matadi</span>
+            <span style="margin-left:173px;font-size:13px">Kongo-central</span>
         </div>
         <div class="destination-item">
-            <span>Kabinda</span>
-            <span style="margin-left:180px">Lomami</span>
+            <span style="font-size:13px">Kabinda</span>
+            <span style="margin-left:200px;font-size:13px">Lomami</span>
         </div>
        
         

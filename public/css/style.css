@@ -1903,10 +1903,12 @@ height: 90%;
     border-radius: 7px; /* Coins arrondis */
     border: 1px solid #ccc; /* Bordure légère */
     width:100% ;
+    
 }
 .destination-details .destination-item:hover {
     background-color: #f0f0f0; /* Couleur de fond au survol */
 }
+
 .input-group {
     margin: 20px 0;
 }
