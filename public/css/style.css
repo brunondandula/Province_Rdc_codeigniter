@@ -1797,7 +1797,7 @@ height: 90%;
 }
 
 .container-final {
-    background-image: url('../img/kin2.jpg'); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../img/kin2.jpg'); 
     background-position: center;
     background-size: cover; 
     padding: 50px 0;
@@ -1835,10 +1835,10 @@ height: 90%;
     height: 430px;
     margin-top: 85px;
     margin-left: 110px;
-    box-shadow: #d1cccc 0px 0px 15px;
+    box-shadow: #d1cccc 0px 4px 20px -4px; 
     border-radius: 15px;
     margin-bottom: 10px;
-    flex-direction: column; /* Aligne verticalement les sections */
+    flex-direction: column; 
     background-color: #f9f9f9;
 }
 
@@ -1847,6 +1847,7 @@ height: 90%;
    width: 70%;
     padding: 10px 0;
     margin-left: -7px;
+   
   
 }
 
@@ -2059,7 +2060,7 @@ height: 90%;
 }
 #photoecrit{
     .overlay {
-        background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent */
+        background-color: rgba(0, 0, 0, 0.5); 
         padding: 20px;
     }
 }
